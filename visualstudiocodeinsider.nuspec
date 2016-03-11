@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>VisualStudioCodeInsiders</id>
+    <title>Visual Studio Code - Insiders</title>
+    <version>0.10.10-insider</version>
+    <authors>Microsoft</authors>
+    <owners>JVimes</owners>
+    <summary>The Insider build of Visual Studio Code.</summary>
+    <description>This is the Insider build of Visual Studio Code. Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.
+
+### Package Specifics
+The package uses default install options except that it adds context menu entries and Visual Studio Code isn't started after installation.
+
+#### Package Parameters
+The following package parameters can be set:
+
+* `/nodesktopicon` - Don't add a desktop icon for Visual Studio Code.
+* `/noquicklaunchicon` - Don't add an icon for Visual Studio Code to the QuickLaunch area.
+* `/nocontextmenufiles` - Don't add an `Open with Code` entry to the context menu for files.
+* `/nocontextmenufolders` - Dont't add an `Open with Code` entry to the context menu for folders. 
+* `/dontaddtopath` - Don't add Visual Studio Code to the path. 
+
+These parameters can be passed to the installer with the use of `-params`.
+For example: `-params '"/nodesktopicon /dontaddtopath"'`. 
+    </description>
+    <projectUrl>https://code.visualstudio.com</projectUrl>
+    <packageSourceUrl>https://github.com/jvimes/chocolatey-packages/tree/master/visualstudiocodeinsider</packageSourceUrl>
+    <projectSourceUrl>https://github.com/Microsoft/vscode</projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>editor ide javascript typescript vscode visualstudiocode</tags>
+    <copyright>© 2016 Microsoft</copyright>
+    <licenseUrl>https://code.visualstudio.com/License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://code.visualstudio.com/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/Microsoft/vscode/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="DotNet4.5.1" version="4.5.1.20131012" />
+    </dependencies>
+    <iconUrl>http://i.imgur.com/Z3AlOY3.png</iconUrl>
+    <releaseNotes>https://code.visualstudio.com/insiders</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
