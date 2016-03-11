@@ -3,13 +3,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>VisualStudioCodeInsiders</id>
+    <id>VisualStudioCodeInsider</id>
     <title>Visual Studio Code - Insiders</title>
     <version>0.10.10-insider</version>
     <authors>Microsoft</authors>
     <owners>JVimes</owners>
     <summary>The Insider build of Visual Studio Code.</summary>
-    <description>This is the Insider build of Visual Studio Code. Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.
+    <description><![CDATA[This is the Insiders build of Visual Studio Code.
+
+Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.
 
 ### Package Specifics
 The package uses default install options except that it adds context menu entries and Visual Studio Code isn't started after installation.
@@ -24,23 +26,17 @@ The following package parameters can be set:
 * `/dontaddtopath` - Don't add Visual Studio Code to the path. 
 
 These parameters can be passed to the installer with the use of `-params`.
-For example: `-params '"/nodesktopicon /dontaddtopath"'`. 
+For example: `-params '"/nodesktopicon /dontaddtopath"'`.]]>
     </description>
     <projectUrl>https://code.visualstudio.com</projectUrl>
     <packageSourceUrl>https://github.com/jvimes/chocolatey-packages/tree/master/visualstudiocodeinsider</packageSourceUrl>
     <projectSourceUrl>https://github.com/Microsoft/vscode</projectSourceUrl>
-    <docsUrl></docsUrl>
-    <mailingListUrl></mailingListUrl>
-    <bugTrackerUrl></bugTrackerUrl>-->
     <tags>editor ide javascript typescript vscode visualstudiocode</tags>
     <copyright>© 2016 Microsoft</copyright>
     <licenseUrl>https://code.visualstudio.com/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://code.visualstudio.com/docs</docsUrl>
     <bugTrackerUrl>https://github.com/Microsoft/vscode/issues</bugTrackerUrl>
-    <dependencies>
-      <dependency id="DotNet4.5.1" version="4.5.1.20131012" />
-    </dependencies>
     <iconUrl>http://i.imgur.com/Z3AlOY3.png</iconUrl>
     <releaseNotes>https://code.visualstudio.com/insiders</releaseNotes>
     <!--<provides></provides>-->
