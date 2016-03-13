@@ -31,7 +31,7 @@ For example:
     choco install -pre visualstudiocodeinsiders -params '/nocontextmenufiles /nocontextmenufolders']]>
     </description>
     <projectUrl>https://code.visualstudio.com</projectUrl>
-    <packageSourceUrl>https://github.com/jvimes/chocolatey-packages/tree/master/visualstudiocodeinsiders</packageSourceUrl>
+    <packageSourceUrl>https://github.com/JVimes/VisualStudioCodeChocoPackage</packageSourceUrl>
     <projectSourceUrl>https://github.com/Microsoft/vscode</projectSourceUrl>
     <tags>editor ide javascript typescript vscode visualstudiocode</tags>
     <copyright>© 2016 Microsoft</copyright>
