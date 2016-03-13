@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'VisualStudioCodeInsider'
+$packageName = 'VisualStudioCodeInsiders'
 $softwareName = 'Visual Studio Code Insiders*'
 $installerType = 'EXE' 
 

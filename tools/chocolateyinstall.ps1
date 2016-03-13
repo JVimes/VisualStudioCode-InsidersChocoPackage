@@ -68,7 +68,7 @@ if ($addContextMenuFiles)   { $mergeTasks = $mergeTasks + ",addcontextmenufiles"
 if ($addContextMenuFolders) { $mergeTasks = $mergeTasks + ",addcontextmenufolders" }
 if ($addToPath)             { $mergeTasks = $mergeTasks + ",addtopath" }
 
-$packageName= 'VisualStudioCodeInsider'
+$packageName= 'VisualStudioCodeInsiders'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://az764295.vo.msecnd.net/insider/5b5f4db87c10345b9d5c8d0bed745bcad4533135/VSCodeSetup-insider.exe'
 #$url64      = ''

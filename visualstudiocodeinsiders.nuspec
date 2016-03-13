@@ -3,18 +3,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>VisualStudioCodeInsider</id>
+    <id>VisualStudioCodeInsiders</id>
     <title>Visual Studio Code - Insiders</title>
     <version>0.10.10-insider</version>
     <authors>Microsoft</authors>
     <owners>JVimes</owners>
     <summary>The Insider build of Visual Studio Code.</summary>
-    <description><![CDATA[This is the Insiders build of Visual Studio Code.
+    <description><![CDATA[This "insiders" (pre-release) build. Don't forge the **`-pre`** option when running `choco install`! Can be installed along side the normal release.
 
-Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.
+*Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.*
 
 ### Package Specifics
-The package uses default install options except that it adds context menu entries and Visual Studio Code isn't started after installation.
+The package uses default install options except that it adds the "Open with Code" context menu entries and Visual Studio Code isn't started after installation.
 
 #### Package Parameters
 The following package parameters can be set:
@@ -26,10 +26,12 @@ The following package parameters can be set:
 * `/dontaddtopath` - Don't add Visual Studio Code to the path. 
 
 These parameters can be passed to the installer with the use of `-params`.
-For example: `-params '"/nodesktopicon /dontaddtopath"'`.]]>
+For example:
+
+    choco install -pre visualstudiocodeinsiders -params '/nocontextmenufiles /nocontextmenufolders']]>
     </description>
     <projectUrl>https://code.visualstudio.com</projectUrl>
-    <packageSourceUrl>https://github.com/jvimes/chocolatey-packages/tree/master/visualstudiocodeinsider</packageSourceUrl>
+    <packageSourceUrl>https://github.com/jvimes/chocolatey-packages/tree/master/visualstudiocodeinsiders</packageSourceUrl>
     <projectSourceUrl>https://github.com/Microsoft/vscode</projectSourceUrl>
     <tags>editor ide javascript typescript vscode visualstudiocode</tags>
     <copyright>© 2016 Microsoft</copyright>
@@ -38,7 +40,6 @@ For example: `-params '"/nodesktopicon /dontaddtopath"'`.]]>
     <docsUrl>https://code.visualstudio.com/docs</docsUrl>
     <bugTrackerUrl>https://github.com/Microsoft/vscode/issues</bugTrackerUrl>
     <iconUrl>http://i.imgur.com/Z3AlOY3.png</iconUrl>
-    <releaseNotes>https://code.visualstudio.com/insiders</releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>
