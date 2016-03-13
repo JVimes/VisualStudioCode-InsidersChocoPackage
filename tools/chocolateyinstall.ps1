@@ -81,7 +81,7 @@ $packageArgs = @{
   url64bit      = $url64
 
   silentArgs   = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /mergetasks=$mergeTasks /log=`"$env:temp\vscode.log`"" # Inno Setup, plus args for Visual Studio Code installer
-  validExitCodes= @(0, 3010, 1641)
+  validExitCodes= @(0)
 
   softwareName  = 'Visual Studio Code Insiders*'
 }
