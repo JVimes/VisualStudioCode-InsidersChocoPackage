@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-# Gather choco install args
+# Gather chocolatey install args
 # Default values
 $createDesktopIcon     = $true
 $createQuickLaunchIcon = $true
