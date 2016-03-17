@@ -9,7 +9,7 @@
     <authors>Microsoft</authors>
     <owners>JVimes</owners>
     <summary>The Insider build of Visual Studio Code.</summary>
-    <description><![CDATA[This "insiders" (pre-release) build. Don't forge the **`-pre`** option when running `choco install`! Can be installed along side the normal release.
+    <description><![CDATA[The "insiders" build of Visual Studio Code. Can be installed along side the normal build.
 
 *Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.*
 
@@ -28,7 +28,7 @@ The following package parameters can be set:
 These parameters can be passed to the installer with the use of `-params`.
 For example:
 
-    choco install -pre visualstudiocodeinsiders -params '/nocontextmenufiles /nocontextmenufolders']]>
+    choco install visualstudiocodeinsiders -params '/nocontextmenufiles /nocontextmenufolders']]>
     </description>
 	<releaseNotes>See the [Insiders page](https://code.visualstudio.com/insiders).</releaseNotes>
     <projectUrl>https://code.visualstudio.com</projectUrl>
