@@ -28,7 +28,7 @@ The following package parameters can be set:
 These parameters can be passed to the installer with the use of `-params`.
 For example:
 
-    choco install visualstudiocodeinsiders -params '/nocontextmenufiles /nocontextmenufolders']]>
+    choco install visualstudiocode-insiders -params '/nocontextmenufiles /nocontextmenufolders']]>
     </description>
 	<releaseNotes>See the [Insiders page](https://code.visualstudio.com/insiders).</releaseNotes>
     <projectUrl>https://code.visualstudio.com</projectUrl>
