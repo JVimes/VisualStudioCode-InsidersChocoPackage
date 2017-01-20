@@ -5,9 +5,9 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>visualstudiocode-insiders</id>
     <title>Visual Studio Code - Insiders</title>
-    <version>0.10.10-insider</version>
+    <version>1.9.0-insider</version>
     <authors>Microsoft</authors>
-    <owners>JVimes</owners>
+    <owners>JVimes,bc3tech</owners>
     <summary>The Insider build of Visual Studio Code.</summary>
     <description><![CDATA[The "insiders" build of Visual Studio Code. Can be installed along side the normal build.
 
@@ -35,7 +35,7 @@ For example:
     <packageSourceUrl>https://github.com/JVimes/VisualStudioCodeChocoPackage</packageSourceUrl>
     <projectSourceUrl>https://github.com/Microsoft/vscode</projectSourceUrl>
     <tags>editor ide javascript typescript vscode visualstudiocode admin</tags>
-    <copyright>© 2016 Microsoft</copyright>
+    <copyright>© 2017 Microsoft</copyright>
     <licenseUrl>https://code.visualstudio.com/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://code.visualstudio.com/docs</docsUrl>
