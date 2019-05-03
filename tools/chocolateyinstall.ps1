@@ -70,8 +70,8 @@ if ($addToPath)             { $mergeTasks = $mergeTasks + ",addtopath" }
 
 $packageName= 'VisualStudioCode-Insiders'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://az764295.vo.msecnd.net/insider/ee9d91c05fa571de56c41383cceee30b05b0a2f6/VSCodeSetup-1.9.0-insider.exe'
-#$url64      = ''
+$url        = 'https://az764295.vo.msecnd.net/insider/473af338e1bd9ad4d9853933da1cd9d5d9e07dc9/VSCodeSetup-ia32-1.34.0-insider.exe'
+$url64      = 'https://az764295.vo.msecnd.net/insider/473af338e1bd9ad4d9853933da1cd9d5d9e07dc9/VSCodeSetup-x64-1.34.0-insider.exe'
 
 $packageArgs = @{
   packageName   = $packageName
